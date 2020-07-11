@@ -1,2 +1,3 @@
-# practice-repo
-Practice for using Github
+# Practice
+
+This Repository is used for practicing Github.
