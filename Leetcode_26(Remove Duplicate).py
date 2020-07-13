@@ -2,7 +2,7 @@
 
 class Solution:
     def removeDuplicates(self, nums):
-        if len(nums) == 0: return nums
+        if len(nums) == 0: return 0
         current = "placeholder"
         position = 0
 
@@ -11,4 +11,4 @@ class Solution:
                 nums[position] = nums[index]
                 current = nums[index]
                 position += 1
-        return nums
+        return position
