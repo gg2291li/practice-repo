@@ -7,4 +7,4 @@ class Solution:
         while True:
             mid = (rBound - lBound) // 2
             if target == lBound + mid: return lBound + mid
-            # test 2
+            # test 3
