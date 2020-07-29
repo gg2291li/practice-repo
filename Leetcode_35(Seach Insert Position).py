@@ -17,4 +17,3 @@ class Solution:
                     return lBound + mid + 1
                 else:
                     lBound = lBound + mid + 1
-            # test 5
