@@ -1,7 +1,7 @@
 class Solution:
-    def permute(self, nums):
+    def permuteUnique(self, nums):
         if nums == []: return []
-        return self.helper(nums, [])
+        return self.removeDup(self.helper(nums, []))
 
     def helper(self, nums, result):
         if result == []:
@@ -18,6 +18,10 @@ class Solution:
             result = tempResult[:]
             tempResult = [] 
         return result
-
-        
-        
+    
+    def removeDup(self, lst):
+        res = []
+        for i in lst:
+            if i not in res:
+                res.append(i)
+        return res
