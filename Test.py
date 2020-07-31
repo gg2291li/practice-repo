@@ -1,4 +1,4 @@
-s = "abcd"
-s = s[3:]
+a = ["das", "abc"]
+a.sort()
 
-print(s)
+print(a)
