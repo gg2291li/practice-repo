@@ -1,4 +1,4 @@
-grid = [[1, 0, 0], [0, 0, 1]]
-checked = [[True] * len(grid[0]) for item in grid]
+s = "abcd"
+s = s[3:]
 
-print(True == 0)
+print(s)
